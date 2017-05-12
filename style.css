@@ -1,0 +1,26 @@
+body, html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3a3a3a;
+    font-size: 1rem;
+}
+
+li {
+    list-style: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.3rem;
+    color: #6D4205;
+}
+
+header {
+    display: inline;
+}
+
+header p, article p {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+#notepad {
+    width: 300px;
+    background-image: url(/images/list-bg.png);
+}
