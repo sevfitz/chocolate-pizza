@@ -24,7 +24,35 @@ article li {
 
 
 header {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    border-style: dotted;
+    border-width: 0 0 20px 0;
+    border-color: slategray;
+}
+
+#finalfooter {
+    text-align: center;
+}
+
+#logo {
     display: inline;
+    float: left;
+}
+
+#headerright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 24px;
+    width: 24px;
 }
 
 header p, article p {
